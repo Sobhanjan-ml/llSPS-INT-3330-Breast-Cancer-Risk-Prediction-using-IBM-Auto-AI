@@ -1,0 +1,898 @@
+{
+  "report": {
+    "docType": "iam.identity-access-map",
+    "version": "1.0.0",
+    "createdById": "IBMid-550007Y71N",
+    "date": "2020-07-11T10:37:10.435Z",
+    "fullReport": true,
+    "displayName": "Sobhanjan Dey",
+    "contact": "sdey395@gmail.com"
+  },
+  "responses": [
+    {
+      "resource": {
+        "crn": "crn:v1:bluemix:public:cloudantnosqldb:au-syd:a/4d5341e6af5b4617aafade6d35016b40:4474f6d3-8569-465e-9378-128d51f2a791::",
+        "displayName": "node-red-gwjbv-cloudant-1594404822999",
+        "serviceName": "cloudantnosqldb",
+        "resourceGroupId": "eb933d07f3734f9ebf5f593b7b5b2978",
+        "resourceGroupName": "Default"
+      },
+      "access": [
+        {
+          "subject": {
+            "serviceId": {
+              "id": "iam-ServiceId-e4d33eda-bf75-4d63-8680-05da0ce83352",
+              "displayName": "node-red-gwjbv-cloudant-1594404822999"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+                "displayName": "Writer",
+                "description": "As a writer, you have permissions beyond the reader role, including creating and editing service-specific resources."
+              },
+              "actions": [
+                {
+                  "action": "cloudantnosqldb.local-document.write",
+                  "displayName": "Write _local documents",
+                  "description": "Write _local documents"
+                },
+                {
+                  "action": "cloudantnosqldb.any-document.read",
+                  "displayName": "Read any documents in a normal database",
+                  "description": "Read any documents in a normal database"
+                },
+                {
+                  "action": "cloudantnosqldb.account-uuids.read",
+                  "displayName": "Generate doc ID UUIDs",
+                  "description": "Generate doc ID UUIDs"
+                },
+                {
+                  "action": "cloudantnosqldb.iam-session.delete",
+                  "displayName": "Delete _iam_session endpoint",
+                  "description": "Delete _iam_session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.account-all-dbs.read",
+                  "displayName": "List all databases",
+                  "description": "List all databases"
+                },
+                {
+                  "action": "cloudantnosqldb.database-info.read",
+                  "displayName": "Read /db/ database info",
+                  "description": "Read /db/ database info"
+                },
+                {
+                  "action": "cloudantnosqldb.database-ensure-full-commit.execute",
+                  "displayName": "Call _ensure_full_commit endpoint",
+                  "description": "Call _ensure_full_commit endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.session.read",
+                  "displayName": "Read _session endpoint",
+                  "description": "Read _session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.account-dbs-info.read",
+                  "displayName": "Read _dbs_info endpoint",
+                  "description": "Read _dbs_info endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.account-meta-info.read",
+                  "displayName": "View account metadata",
+                  "description": "View account metadata"
+                },
+                {
+                  "action": "cloudantnosqldb.activity-tracker-event-types.read",
+                  "displayName": "Access list of configured activity tracker event types for a service instance",
+                  "description": "Access list of configured activity tracker event types for a service instance"
+                },
+                {
+                  "action": "cloudantnosqldb.session.delete",
+                  "displayName": "Delete _session endpoint",
+                  "description": "Delete _session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.iam-session.write",
+                  "displayName": "Write _iam_session endpoint",
+                  "description": "Write _iam_session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.iam-session.read",
+                  "displayName": "Read _iam_session endpoint",
+                  "description": "Read _iam_session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.session.write",
+                  "displayName": "Write _session endpoint",
+                  "description": "Write _session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.data-document.write",
+                  "displayName": "Create, update and delete normal documents in a database",
+                  "description": "Create, update and delete normal documents in a database"
+                },
+                {
+                  "action": "cloudantnosqldb.account-search-analyze.execute",
+                  "displayName": "Call _search_analyze endpoint",
+                  "description": "Call _search_analyze endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.account-db-updates.read",
+                  "displayName": "Read db_updates feed",
+                  "description": "Read db_updates feed"
+                }
+              ],
+              "policyIds": [
+                "https://cloud.ibm.com/iam/serviceids/ServiceId-e4d33eda-bf75-4d63-8680-05da0ce83352/policies/1937ea34-c76c-49be-aa6d-2923a16c01a2"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+                  "displayName": "Writer",
+                  "description": "As a writer, you have permissions beyond the reader role, including creating and editing service-specific resources."
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read",
+                    "displayName": "Find cloud resources",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.read",
+                    "displayName": "IAM Policy Read",
+                    "description": "The ability to see policies."
+                  }
+                ],
+                "policyIds": [
+                  "https://cloud.ibm.com/iam/serviceids/ServiceId-e4d33eda-bf75-4d63-8680-05da0ce83352/policies/1937ea34-c76c-49be-aa6d-2923a16c01a2"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "subject": {
+            "user": {
+              "id": "IBMid-550007Y71N",
+              "displayName": "Sobhanjan Dey",
+              "contact": "sdey395@gmail.com"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "displayName": "Manager",
+                "description": "As a manager, you have permissions beyond the writer role to complete privileged actions as defined by the service. In addition, you can create and edit service-specific resources."
+              },
+              "actions": [
+                {
+                  "action": "cloudantnosqldb.limits-throughput.read",
+                  "displayName": "Read throughput limits for current Plan",
+                  "description": "Read throughput limits for current Plan"
+                },
+                {
+                  "action": "cloudantnosqldb.account-uuids.read",
+                  "displayName": "Generate doc ID UUIDs",
+                  "description": "Generate doc ID UUIDs"
+                },
+                {
+                  "action": "cloudantnosqldb.account-all-dbs.read",
+                  "displayName": "List all databases",
+                  "description": "List all databases"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.supporttickets",
+                  "displayName": "View support tickets for user",
+                  "description": "View support tickets for user"
+                },
+                {
+                  "action": "cloudantnosqldb.couchdbextension-instance.write",
+                  "displayName": "Make changes to an Extension for Apache CouchDB instance",
+                  "description": "Make changes to an Extension for Apache CouchDB instance"
+                },
+                {
+                  "action": "cloudantnosqldb.database.create",
+                  "displayName": "Create databases",
+                  "description": "Create databases"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.usage-data-volume",
+                  "displayName": "View instance data usage",
+                  "description": "View instance data usage"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.usage-requests",
+                  "displayName": "View instance requests usage",
+                  "description": "View instance requests usage"
+                },
+                {
+                  "action": "cloudantnosqldb.iam-session.write",
+                  "displayName": "Write _iam_session endpoint",
+                  "description": "Write _iam_session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.users.read",
+                  "displayName": "Read from users databases",
+                  "description": "Read from users databases"
+                },
+                {
+                  "action": "cloudantnosqldb.account-deleted-dbs.delete",
+                  "displayName": "Delete deleted database",
+                  "description": "Delete deleted database"
+                },
+                {
+                  "action": "cloudantnosqldb.account-db-updates.read",
+                  "displayName": "Read db_updates feed",
+                  "description": "Read db_updates feed"
+                },
+                {
+                  "action": "cloudantnosqldb.replication.read",
+                  "displayName": "Read from _replicator databases",
+                  "description": "Read from _replicator databases"
+                },
+                {
+                  "action": "cloudantnosqldb.users-database-info.read",
+                  "displayName": "Read _users database info",
+                  "description": "Read _users database info"
+                },
+                {
+                  "action": "cloudantnosqldb.replicator-database.create",
+                  "displayName": "Create _replicator databases",
+                  "description": "Create _replicator databases"
+                },
+                {
+                  "action": "cloudantnosqldb.replication.write",
+                  "displayName": "Write to _replicator databases",
+                  "description": "Write to _replicator databases"
+                },
+                {
+                  "action": "cloudantnosqldb.users-database.create",
+                  "displayName": "Create users databases",
+                  "description": "Create users databases"
+                },
+                {
+                  "action": "cloudantnosqldb.iam-session.delete",
+                  "displayName": "Delete _iam_session endpoint",
+                  "description": "Delete _iam_session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.replication-scheduler.read",
+                  "displayName": "Read _scheduler endpoints",
+                  "description": "Read from replication _scheduler endpoints"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.supportattachments",
+                  "displayName": "View attachments on support tickets for user",
+                  "description": "View attachments on support tickets for user"
+                },
+                {
+                  "action": "cloudantnosqldb.db.any",
+                  "displayName": "Perform any database action",
+                  "description": "Perform any database action"
+                },
+                {
+                  "action": "cloudantnosqldb.current-throughput.read",
+                  "displayName": "Read current request throughput",
+                  "description": "Read current request throughput"
+                },
+                {
+                  "action": "cloudantnosqldb.activity-tracker-event-types.read",
+                  "displayName": "Access list of configured activity tracker event types for a service instance",
+                  "description": "Access list of configured activity tracker event types for a service instance"
+                },
+                {
+                  "action": "cloudantnosqldb.session.delete",
+                  "displayName": "Delete _session endpoint",
+                  "description": "Delete _session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.account-deleted-dbs.list",
+                  "displayName": "List deleted databases",
+                  "description": "List deleted databases"
+                },
+                {
+                  "action": "cloudantnosqldb.database-security.write",
+                  "displayName": "Write database security definitions",
+                  "description": "Write database security definitions"
+                },
+                {
+                  "action": "cloudantnosqldb.database-security.read",
+                  "displayName": "Read database security definitions",
+                  "description": "Read database security definitions"
+                },
+                {
+                  "action": "cloudantnosqldb.account-search-analyze.execute",
+                  "displayName": "Call _search_analyze endpoint",
+                  "description": "Call _search_analyze endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.db-security",
+                  "displayName": "Allow update of DB security",
+                  "description": "Allow update of database security"
+                },
+                {
+                  "action": "cloudantnosqldb.account-up.read",
+                  "displayName": "View _up",
+                  "description": "View _up"
+                },
+                {
+                  "action": "cloudantnosqldb.capacity-throughput.read",
+                  "displayName": "Read current provisioned throughput",
+                  "description": "Read current provisioned throughput"
+                },
+                {
+                  "action": "cloudantnosqldb.cluster-membership.read",
+                  "displayName": "View cluster membership",
+                  "description": "View cluster membership"
+                },
+                {
+                  "action": "cloudantnosqldb.local-document.write",
+                  "displayName": "Write _local documents",
+                  "description": "Write _local documents"
+                },
+                {
+                  "action": "cloudantnosqldb.account-active-tasks.read",
+                  "displayName": "View active tasks for instance",
+                  "description": "View active tasks for instance"
+                },
+                {
+                  "action": "cloudantnosqldb.activity-tracker-event-types.write",
+                  "displayName": "Update list of configured activity tracker event types for a service instance",
+                  "description": "Update list of configured activity tracker event types for a service instance"
+                },
+                {
+                  "action": "cloudantnosqldb.any-document.read",
+                  "displayName": "Read any documents in a normal database",
+                  "description": "Read any documents in a normal database"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.apikeys",
+                  "displayName": "Generate Cloudant API keys for a service instance",
+                  "description": "Generate Cloudant API keys for a service instance"
+                },
+                {
+                  "action": "cloudantnosqldb.replicator-database.delete",
+                  "displayName": "Delete _replicator databases",
+                  "description": "Delete _replicator databases"
+                },
+                {
+                  "action": "cloudantnosqldb.replicator-database-info.read",
+                  "displayName": "Read _replicator database info",
+                  "description": "Read _replicator database info"
+                },
+                {
+                  "action": "cloudantnosqldb.account-meta-info.read",
+                  "displayName": "View account metadata",
+                  "description": "View account metadata"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.lastactivity",
+                  "displayName": "Access last activity time for account",
+                  "description": "Access last activity time for account"
+                },
+                {
+                  "action": "cloudantnosqldb.users.write",
+                  "displayName": "Write to users databases",
+                  "description": "Write to users databases"
+                },
+                {
+                  "action": "cloudantnosqldb.data-document.write",
+                  "displayName": "Create, update and delete normal documents in a database",
+                  "description": "Create, update and delete normal documents in a database"
+                },
+                {
+                  "action": "cloudantnosqldb.account-deleted-dbs.restore",
+                  "displayName": "Restore deleted database",
+                  "description": "Restore deleted database"
+                },
+                {
+                  "action": "cloudantnosqldb.couchdbextension-instance.read",
+                  "displayName": "View metadata of an Extension for Apache CouchDB instance",
+                  "description": "View metadata of an Extension for Apache CouchDB instance"
+                },
+                {
+                  "action": "cloudantnosqldb.database.delete",
+                  "displayName": "Delete databases",
+                  "description": "Delete databases"
+                },
+                {
+                  "action": "cloudantnosqldb.capacity-throughput.write",
+                  "displayName": "Update provisioned throughput capacity",
+                  "description": "Update provisioned throughput capacity"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.userccmdiagnostics",
+                  "displayName": "Access current and maximum allowed throughput values",
+                  "description": "Access current and maximum allowed throughput values"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.userinfo",
+                  "displayName": "Retrieve basic user infomation for this user",
+                  "description": "Retrieve basic user infomation for this user"
+                },
+                {
+                  "action": "cloudantnosqldb.database-info.read",
+                  "displayName": "Read /db/ database info",
+                  "description": "Read /db/ database info"
+                },
+                {
+                  "action": "cloudantnosqldb.database-ensure-full-commit.execute",
+                  "displayName": "Call _ensure_full_commit endpoint",
+                  "description": "Call _ensure_full_commit endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.userplan",
+                  "displayName": "Retrieve and update instance plan settings",
+                  "description": "Retrieve and update instance plan settings"
+                },
+                {
+                  "action": "cloudantnosqldb.session.read",
+                  "displayName": "Read _session endpoint",
+                  "description": "Read _session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.usercors",
+                  "displayName": "Update CORS settings for a service instance",
+                  "description": "Update CORS settings for a service instance"
+                },
+                {
+                  "action": "cloudantnosqldb.design-document.write",
+                  "displayName": "Write _design documents",
+                  "description": "Write _design documents"
+                },
+                {
+                  "action": "cloudantnosqldb.account-dbs-info.read",
+                  "displayName": "Read _dbs_info endpoint",
+                  "description": "Read _dbs_info endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.users-database.delete",
+                  "displayName": "Delete users databases",
+                  "description": "Delete users databases"
+                },
+                {
+                  "action": "cloudantnosqldb.iam-session.read",
+                  "displayName": "Read _iam_session endpoint",
+                  "description": "Read _iam_session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.database-shards.read",
+                  "displayName": "View database shard metadata",
+                  "description": "View database shard metadata"
+                },
+                {
+                  "action": "cloudantnosqldb.session.write",
+                  "displayName": "Write _session endpoint",
+                  "description": "Write _session endpoint"
+                }
+              ],
+              "policyIds": [
+                "https://cloud.ibm.com/iam/users/IBMid-550007Y71N/policies/bbd1d547-b0f7-4589-a487-f0e0b42672b7"
+              ]
+            },
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::role:Administrator",
+                "displayName": "Administrator",
+                "description": "As an administrator, you can perform all platform actions based on the resource this role is being assigned, including assigning access policies to other users."
+              },
+              "actions": [
+                {
+                  "action": "cloudantnosqldb.capacity-throughput.write",
+                  "displayName": "Update provisioned throughput capacity",
+                  "description": "Update provisioned throughput capacity"
+                },
+                {
+                  "action": "cloudantnosqldb.activity-tracker-event-types.read",
+                  "displayName": "Access list of configured activity tracker event types for a service instance",
+                  "description": "Access list of configured activity tracker event types for a service instance"
+                },
+                {
+                  "action": "cloudantnosqldb.activity-tracker-event-types.write",
+                  "displayName": "Update list of configured activity tracker event types for a service instance",
+                  "description": "Update list of configured activity tracker event types for a service instance"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.userinfo",
+                  "displayName": "Retrieve basic user infomation for this user",
+                  "description": "Retrieve basic user infomation for this user"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.usage-data-volume",
+                  "displayName": "View instance data usage",
+                  "description": "View instance data usage"
+                },
+                {
+                  "action": "cloudantnosqldb.sapi.userplan",
+                  "displayName": "Retrieve and update instance plan settings",
+                  "description": "Retrieve and update instance plan settings"
+                },
+                {
+                  "action": "cloudantnosqldb.capacity-throughput.read",
+                  "displayName": "Read current provisioned throughput",
+                  "description": "Read current provisioned throughput"
+                }
+              ],
+              "policyIds": [
+                "https://cloud.ibm.com/iam/users/IBMid-550007Y71N/policies/bbd1d547-b0f7-4589-a487-f0e0b42672b7"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                  "displayName": "Manager",
+                  "description": "As a manager, you have permissions beyond the writer role to complete privileged actions as defined by the service. In addition, you can create and edit service-specific resources."
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read",
+                    "displayName": "Find cloud resources",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.read",
+                    "displayName": "IAM Policy Read",
+                    "description": "The ability to see policies."
+                  }
+                ],
+                "policyIds": [
+                  "https://cloud.ibm.com/iam/users/IBMid-550007Y71N/policies/bbd1d547-b0f7-4589-a487-f0e0b42672b7"
+                ]
+              },
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::role:Administrator",
+                  "displayName": "Administrator",
+                  "description": "As an administrator, you can perform all platform actions based on the resource this role is being assigned, including assigning access policies to other users."
+                },
+                "actions": [
+                  {
+                    "action": "resource-controller.key.delete",
+                    "displayName": "Resource Key Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.resource.read",
+                    "displayName": "Find cloud resources",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.update",
+                    "displayName": "IAM Policy Update",
+                    "description": "The ability to update or edit existing policies."
+                  },
+                  {
+                    "action": "resource-controller.instance.create",
+                    "displayName": "Resource Instance Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.key.retrieve",
+                    "displayName": "Resource Key Retrieve ",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.role.read",
+                    "displayName": "IAM Role Read",
+                    "description": "The ability to see roles."
+                  },
+                  {
+                    "action": "resource-controller.alias.retrieve",
+                    "displayName": "Resource Alias Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.retrieve",
+                    "displayName": "Resource Group Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.create",
+                    "displayName": "IAM Policy Create",
+                    "description": "The ability to create policies."
+                  },
+                  {
+                    "action": "resource-controller.key.update",
+                    "displayName": "Resource Key Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve",
+                    "displayName": "Resource Instance Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.quota.retrieve",
+                    "displayName": "Quota Definitions Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.retrieve",
+                    "displayName": "Resource Broker Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.key.create",
+                    "displayName": "Resource Key Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-user-tag",
+                    "displayName": "Attach tag",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.delegationPolicy.create",
+                    "displayName": "IAM Delegation policy Create",
+                    "description": "The ability to create a policy that can be delegated to another service."
+                  },
+                  {
+                    "action": "resource-controller.alias.create",
+                    "displayName": "Resource Alias Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve_history",
+                    "displayName": "Resource Instance Retrieve History",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.delete",
+                    "displayName": "IAM Policy Delete",
+                    "description": "The ability to delete existing policies."
+                  },
+                  {
+                    "action": "iam.service.read",
+                    "displayName": "IAM Service Read",
+                    "description": "The ability to see services."
+                  },
+                  {
+                    "action": "iam.role.assign",
+                    "displayName": "IAM Role Assign",
+                    "description": "The ability to assign roles to policies."
+                  },
+                  {
+                    "action": "resource-controller.group.update",
+                    "displayName": "Resource Group Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.delete",
+                    "displayName": "Resource Group Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.alias.delete",
+                    "displayName": "Resource Alias Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.read",
+                    "displayName": "IAM Policy Read",
+                    "description": "The ability to see policies."
+                  },
+                  {
+                    "action": "resource-controller.broker.update",
+                    "displayName": "Resource Broker Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.delete",
+                    "displayName": "Resource Broker Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.update",
+                    "displayName": "Resource Binding Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-user-tag",
+                    "displayName": "Detach tag",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.create",
+                    "displayName": "Resource Binding Create ",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.update",
+                    "displayName": "Resource Instance Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.alias.update",
+                    "displayName": "Resource Alias Update ",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.create",
+                    "displayName": "Resource Group Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.delete",
+                    "displayName": "Resource Binding Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.retrieve",
+                    "displayName": "Resource Binding Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.create",
+                    "displayName": "Resource Broker Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.update_plan",
+                    "displayName": "Resource Instance Update Plan",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.delete",
+                    "displayName": "Resource Instance Delete",
+                    "description": ""
+                  }
+                ],
+                "policyIds": [
+                  "https://cloud.ibm.com/iam/users/IBMid-550007Y71N/policies/bbd1d547-b0f7-4589-a487-f0e0b42672b7"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "subject": {
+            "serviceId": {
+              "id": "iam-ServiceId-3afd26cf-8a45-47d5-8b75-d732e73915d2",
+              "displayName": "0be6384f-10f3-4315-b670-06aa0b4548d0"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+                "displayName": "Writer",
+                "description": "As a writer, you have permissions beyond the reader role, including creating and editing service-specific resources."
+              },
+              "actions": [
+                {
+                  "action": "cloudantnosqldb.local-document.write",
+                  "displayName": "Write _local documents",
+                  "description": "Write _local documents"
+                },
+                {
+                  "action": "cloudantnosqldb.any-document.read",
+                  "displayName": "Read any documents in a normal database",
+                  "description": "Read any documents in a normal database"
+                },
+                {
+                  "action": "cloudantnosqldb.account-uuids.read",
+                  "displayName": "Generate doc ID UUIDs",
+                  "description": "Generate doc ID UUIDs"
+                },
+                {
+                  "action": "cloudantnosqldb.iam-session.delete",
+                  "displayName": "Delete _iam_session endpoint",
+                  "description": "Delete _iam_session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.account-all-dbs.read",
+                  "displayName": "List all databases",
+                  "description": "List all databases"
+                },
+                {
+                  "action": "cloudantnosqldb.database-info.read",
+                  "displayName": "Read /db/ database info",
+                  "description": "Read /db/ database info"
+                },
+                {
+                  "action": "cloudantnosqldb.database-ensure-full-commit.execute",
+                  "displayName": "Call _ensure_full_commit endpoint",
+                  "description": "Call _ensure_full_commit endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.session.read",
+                  "displayName": "Read _session endpoint",
+                  "description": "Read _session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.account-dbs-info.read",
+                  "displayName": "Read _dbs_info endpoint",
+                  "description": "Read _dbs_info endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.account-meta-info.read",
+                  "displayName": "View account metadata",
+                  "description": "View account metadata"
+                },
+                {
+                  "action": "cloudantnosqldb.activity-tracker-event-types.read",
+                  "displayName": "Access list of configured activity tracker event types for a service instance",
+                  "description": "Access list of configured activity tracker event types for a service instance"
+                },
+                {
+                  "action": "cloudantnosqldb.session.delete",
+                  "displayName": "Delete _session endpoint",
+                  "description": "Delete _session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.iam-session.write",
+                  "displayName": "Write _iam_session endpoint",
+                  "description": "Write _iam_session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.iam-session.read",
+                  "displayName": "Read _iam_session endpoint",
+                  "description": "Read _iam_session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.session.write",
+                  "displayName": "Write _session endpoint",
+                  "description": "Write _session endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.data-document.write",
+                  "displayName": "Create, update and delete normal documents in a database",
+                  "description": "Create, update and delete normal documents in a database"
+                },
+                {
+                  "action": "cloudantnosqldb.account-search-analyze.execute",
+                  "displayName": "Call _search_analyze endpoint",
+                  "description": "Call _search_analyze endpoint"
+                },
+                {
+                  "action": "cloudantnosqldb.account-db-updates.read",
+                  "displayName": "Read db_updates feed",
+                  "description": "Read db_updates feed"
+                }
+              ],
+              "policyIds": [
+                "https://cloud.ibm.com/iam/serviceids/ServiceId-3afd26cf-8a45-47d5-8b75-d732e73915d2/policies/6546e162-6418-4ce9-99fa-eb975182fa13"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+                  "displayName": "Writer",
+                  "description": "As a writer, you have permissions beyond the reader role, including creating and editing service-specific resources."
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read",
+                    "displayName": "Find cloud resources",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.read",
+                    "displayName": "IAM Policy Read",
+                    "description": "The ability to see policies."
+                  }
+                ],
+                "policyIds": [
+                  "https://cloud.ibm.com/iam/serviceids/ServiceId-3afd26cf-8a45-47d5-8b75-d732e73915d2/policies/6546e162-6418-4ce9-99fa-eb975182fa13"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
